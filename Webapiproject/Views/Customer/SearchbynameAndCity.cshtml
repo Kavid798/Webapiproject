@@ -1,0 +1,19 @@
+﻿
+@{
+    ViewBag.Title = "SearchbynameAndCity";
+}
+
+<h2>SearchbynameAndCity</h2>
+<div class="container">
+    @using (Html.BeginForm())
+    {
+        <div>
+            @Html.Label("input")
+            @Html.TextBox("input")
+            </div>
+            <div>
+            <input type="submit" name="cmdsubmit" value="Submit" />
+
+        </div>
+    }
+</div>
